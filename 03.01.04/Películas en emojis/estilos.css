@@ -1,0 +1,29 @@
+body{
+    background-color: #ffeacc;
+}
+
+h1{
+    color: #995900;
+}
+
+h2{
+    color: #ff9500;
+}
+
+.id1{
+    background-color: #ffccea;
+    font-size:  3rem;
+}
+
+.id2{
+    background-color: white;
+    font-size: 3rem;
+}
+
+details{
+    font-size: 3rem;
+}
+
+p{
+    font-size: 2rem;
+}

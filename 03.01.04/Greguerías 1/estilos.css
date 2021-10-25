@@ -1,0 +1,30 @@
+body{
+    background-color: #2d8652;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 120%;
+}
+.id1{
+    font-style: oblique;
+    color: white;
+}
+
+.id2{
+    color: #ffdfb3;
+    font-family: sans-serif;
+}
+
+.id3{
+    color: #ff9f1a;
+    font-family: monospace;
+}
+
+.id4{
+    color: red;
+    font-family: cursive;
+}

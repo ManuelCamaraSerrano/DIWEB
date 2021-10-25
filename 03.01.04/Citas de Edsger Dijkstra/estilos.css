@@ -1,0 +1,60 @@
+body{
+    background-color: #267352;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: white;
+    text-shadow: 0.1em 0.1em 0.05em black;
+}
+
+p{
+    font-size: 124%;
+}
+.principal{
+    background-color: white;
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 1.5%;
+    border-width: 10px;
+}
+
+.id1{
+    background-color: #ac5a39;
+    border: solid;
+    border-color:  #802400;
+    margin-left: 0.5%;
+    margin-right: 50%;
+    border-width: 16px;
+    color: white;
+    border-radius: 10px 0px 0px 10px;
+    padding: 0.5%;
+}
+
+.id2{
+    background-color: #ac7a39;
+    border: solid;
+    border-color: #804800;
+    margin-left: 50%;
+    margin-right: 0.5%;
+    border-width: 15px;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+    padding: 0.8%;
+
+}
+
+.id3{
+    background-color: #004680;
+    border: dashed;
+    border-color: #3978ac;
+    margin-left: 24%;
+    margin-right: 24%;
+    color: white;
+    padding: 0.8%;
+    border-width: 5px;
+
+}
