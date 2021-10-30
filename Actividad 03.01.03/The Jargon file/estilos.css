@@ -1,0 +1,38 @@
+body{
+    background-color: #C6E0EC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 300%;
+}
+
+h2{
+    background-color: #4099bf;
+    font-size: 200%;
+}
+
+p{
+    font-size: 100%;
+}
+
+h3{
+    background-color: #79b8d2;
+    color: white;
+    font-size: 150%;
+}
+
+pre{
+    background-color: white;
+    font-weight: bold;
+    font-size: 120%;
+
+}
+
+.cursiva{
+    font-style: italic;
+    margin-left: 3%;
+}
