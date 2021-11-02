@@ -1,0 +1,67 @@
+body{
+    background-color: #c7c8d1;
+}
+
+h1{
+    font-size: 400%;
+    color: #575a75;
+    text-align: center;
+    margin:0;
+}
+
+.futbol h2{
+    color: white;
+    background-color: #CC5500 ;
+    font-size: 200%;
+    margin:0;
+    border-radius: 0px 15px 0px 0px;
+}
+
+.futbol{
+    background-color: #ffa666;
+    border-radius: 0px 15px 15px 15px;
+    border: solid #CC5500;
+    margin-bottom: 1%;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.futbol .datos{
+    background-color: #db5b00 ;
+    margin-top: 0px;
+}
+
+.futbol .vida{
+    margin: 0px 10px;
+}
+
+p{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+}
+
+.literatura{
+    background-color: #ffccff;
+    border: solid #e600e6;
+    border-radius: 15px 0px 15px 0px;
+    margin-bottom: 1%;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.literatura h2{
+    background-color: #e600e6;
+    color: white;
+    font-size: 200%;
+    margin:0;
+    border-radius: 15px 0px 0px 0px;
+}
+
+.literatura .datos{
+    background-color: #FF80FF;
+}
+
+.literatura .vida{
+    margin: 0px 10px;
+}

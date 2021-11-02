@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    font-family: letrageneral ;
+}
+
+@font-face{
+    font-family: letrageneral;
+    src: url(Playball-Regular.ttf);
+}
+header{
+    background-color: #e64d19;
+}
+
+h1{
+    color: white;
+    margin: 0;
+    font-size: 380%;
+    padding-bottom:3% ;
+    padding-top: 1%;
+    margin-left: 1%;
+}
+
+main{
+    border-left: solid #e64d19;
+    border-right: solid #e64d19;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-width: 5px;
+}
+
+.siglo{
+    background-color: #ffd9cc;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-bottom: 7%;
+}
+
+h2{
+    color: white;
+    background-color: #ff6633;
+    font-size: 200%;
+    padding-left: 1%;
+}
+
+article{
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 3% ;
+}
+
+h3{
+    background-color: #ff6633;
+    color: white;
+    font-size: 180%;
+    padding-left: 1%;
+
+}
+
+
+
+p{
+    font-size: 160%;
+    margin-left: 2%;
+}
+
+aside{
+    border-left: solid #ff6633;
+    float: right;
+    margin-right: 4%;
+    margin-top: 0;
+    padding-left: 5% ;
+    border-width: 5px;
+}
+
+aside p{
+    text-align: center;
+}
+
+footer{
+    background-color: #e64d19;
+    color: white;
+    margin:0px;
+}

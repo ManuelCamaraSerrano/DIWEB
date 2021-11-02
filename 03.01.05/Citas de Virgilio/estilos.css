@@ -1,0 +1,53 @@
+body{
+    background-color: #cbac4d;
+}
+
+@font-face{
+    font-family: titulo;
+    src: url(RibeyeMarrow-Regular.ttf);
+}
+
+@font-face{
+    font-family: lobster;
+    src: url(Lobster-Regular.ttf);
+}
+
+@font-face{
+    font-family: JustAnother;
+    src: url(JustAnotherHand-Regular.ttf);
+}
+
+h1{
+    text-align: center;
+    font-family: titulo;
+    letter-spacing: 24px;
+    font-size: 300%;
+}
+
+.intro{
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 100%;
+    line-height: 32px;
+    font-family:sans-serif;
+    text-align: justify;
+}
+
+cite{
+    text-decoration: underline;
+}
+
+.latin{
+    font-family: lobster;
+    font-size: 250%;
+    margin: 0;
+}
+
+.espanol{
+    font-family: JustAnother;
+    font-size: 350%;
+    text-align: right;
+    color: white;
+    margin: 0 0 3rem;
+    letter-spacing: 1px;
+}
