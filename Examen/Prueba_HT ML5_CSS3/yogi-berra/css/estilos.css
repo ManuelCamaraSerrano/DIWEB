@@ -1,0 +1,88 @@
+body{
+    background: url(../img/violeta.png) repeat-y top left, url(../img/violeta.png) repeat-y right top;
+    background-color: #a4c6ec;
+    background-size: 54px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@font-face{
+    font-family: titulo;
+    src: url(../fonts/slackey.woff2);
+}
+
+h1{
+    text-align: center;
+    font-family: titulo;
+    color: #5c59a4;
+    text-shadow: 5px 5px white;
+    border-bottom: solid #5c59a4 ;
+    margin-left: 46px;
+    margin-right: 46px;
+}
+
+.principal{
+    background-color: white;
+    float: left;
+    margin-right: 47px;
+    margin-left: 47px;
+    padding:6px;
+}
+
+img{
+    float: left;
+    border: solid black;
+    padding: 6px;
+    width: 150px;
+    height: 150px;
+}
+
+.principal p{
+    margin-left: 13%;
+    font-size: 120%;
+}
+
+.cajanaranja{
+    background-color: #f28226;
+    border: dashed white;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-left: 6%;
+    margin-right: 5%;
+    font-size: 180%;
+    color: white;
+    padding: 4px;
+}
+
+.cajaverde{
+    background: url(../img/verde.png);
+    border: solid green;
+    border-radius: 5px 5px 5px 5px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    font-size: 180%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 4px;
+}
+
+spam{
+    color:black;
+}
+
+
+.fila2{
+    margin-left: 1%;
+}
+
+.fila2 .cajanaranja{
+    margin-left: 5.5%;
+}
+
+
+
+
+
