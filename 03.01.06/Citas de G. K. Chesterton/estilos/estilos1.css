@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #8a675c;
+    color:white;
+    text-align: justify;
+}
+
+
+h1{
+    font-size: 210%;
+    text-align: center;
+    
+}
+
+p{
+    font-size: 160%;
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 200%;
+}
+
+nav {
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+p a {
+    border: hsl(195, 60%, 25%) 5px solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    background-color: hsl(195, 60%, 90%);
+    color: hsl(195, 60%, 25%);
+    text-decoration: none;
+  }
