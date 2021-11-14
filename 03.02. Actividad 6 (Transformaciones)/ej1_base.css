@@ -1,0 +1,130 @@
+.container{
+    position: relative;
+  }
+  .caja{
+    width: 180px;
+    height: 180px;
+    background-color: #30B037;
+    color: #FFF;
+    text-align: center;
+    line-height: 180px;
+    margin: 15px;
+    float: left;
+    font-size: 18px;
+    font-family: Arial;
+  }
+
+
+  .caja1{
+    background-color: red;
+    -webkit-transition: 1s linear;
+   transition: 1s linear;
+  }
+  
+  .caja1:hover{
+    transform: scale(0.5);
+  }
+  
+  .caja2{
+    background-color: purple;
+    transition: 1s linear;
+    -webkit-transition: 1s linear;
+  }
+  
+  .caja2:hover{
+    transform: rotate(360deg);
+  }
+  
+  
+  .caja3{
+    background-color: #2980b9;
+    transition: 1s linear;
+    -webkit-transition: 1s linear;
+  }
+  
+  .caja3:hover{
+    transform: skew(10deg);
+  }
+  
+  .caja4{
+    background-color: #3498db;
+    transition: 1s linear;
+    -webkit-transition: 1s linear;
+  }
+  
+  .caja4:hover{
+    transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+  }
+  
+  .caja5{
+    background-color: #17a589;
+    transition: 1s linear;
+    -webkit-transition: 1s linear;
+  }
+  
+  .caja5:hover{
+    transform: skewY(10deg);
+  }
+  
+  .caja6{
+    background-color: #f1c40f;
+    transition: 1s linear;
+    -webkit-transition: 1s linear;
+  }
+  .caja6:hover{
+    transform: translate(10%);
+  }
+  
+  .caja7{
+    background-color: #e67e22;
+    transition: 1s linear;
+    -webkit-transition: 1s linear;
+  }
+  
+  .caja7:hover{
+    transform: translateX(10%);
+  }
+  
+  .caja8{
+    background-color: grey;
+    transition: 1s linear;
+    -webkit-transition: 1s linear;
+  }
+  
+  .caja8:hover{
+    transform: translateY(10%);
+  }
+  
+  .caja9{
+    background-color: #2c3e50;
+    transition: 1s linear;
+    -webkit-transition: 1s linear;
+  }
+  
+  .caja9:hover{
+    -webkit-transform: perspective(150px) rotateX(45deg);
+  transform: perspective(150px) rotateX(45deg);
+  }
+  
+  .caja10{
+    background-color: gray;
+    transition: 1s linear;
+    -webkit-transition: 1s linear;
+  }
+  
+  .caja10:hover{
+    -webkit-transform: perspective(150px) rotateY(45deg);
+  transform: perspective(150px) rotateY(45deg);
+  }
+
+  .caja11{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    background-color: black;
+  }
+  .caja11:hover{
+    -webkit-transform: matrix(0.5, 0.1, 0.5,1,10, -2);
+    transform: matrix(0.5, 0.1, 0.5, 1, 10, -2);
+  }
+  
