@@ -1,0 +1,67 @@
+
+
+// Variables
+$colorTexto : #eee;
+$colorTextoHover : #fff;
+$fondo :#666;
+$fondoHover : #888;
+
+@mixin color {
+    background-color: $fondo;
+    color: $colorTexto;
+  }
+
+  @mixin colorHover {
+    background-color: $fondoHover;
+    color: $colorTextoHover;
+  }
+
+  @mixin box-sizing($tamanio) {
+    -moz-box-sizing: $tamanio;
+    -webkit-box-sizing: $tamanio;
+    box-sizing: $tamanio;
+  }
+
+  @mixin transiciones($property,$duration,$timing:linear) {
+    -moz-transition: $property $duration $timing;
+    -webkit-transition: $property $duration $timing;
+    transition: $property $duration $timing;
+  }
+
+
+  @mixin animaciones($name, $duration, $timing:linear) {
+    -moz-animation: $name $duration $timing;
+    -webkit-animation: $name $duration $timing;
+    animation: $name $duration $timing;
+  }
+
+  @import '_menu.scss';
+
+  body {
+    padding: 0px;
+    margin: 0px;
+}
+
+  header{
+    padding: 12px 30px;
+    font-size: 1.8em;
+    color: #444;
+    background-color: $colorTextoHover;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #aaa;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+footer {
+  @include color;
+  @include box-sizing(border-box);
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  padding: 5px;
+}
+
+
+
+
