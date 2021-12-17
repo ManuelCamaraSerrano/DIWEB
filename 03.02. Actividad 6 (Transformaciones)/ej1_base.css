@@ -38,8 +38,8 @@
   
   .caja3{
     background-color: #2980b9;
-    transition: 1s linear;
-    -webkit-transition: 1s linear;
+    transform: 1s linear;
+    -webkit-transform: 1s linear;
   }
   
   .caja3:hover{
