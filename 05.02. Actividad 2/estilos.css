@@ -1,0 +1,32 @@
+.verde{
+    background-color: #29fe2f;
+    height: 60px;
+    text-align: center;
+}
+
+div{
+    border: solid white 3px;
+}
+
+.azul{
+    background-color: #88abdd;
+    height: 130px;
+    text-align: center;
+}
+
+.gris{
+    background-color: gray;
+    height: 130px;
+}
+
+.azulclaro{
+    background-color: #2cfffe;
+    height: 70px;
+    text-align: center;
+}
+
+.naranja{
+    background-color: orange;
+    height: 150px;
+}
+
