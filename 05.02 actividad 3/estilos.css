@@ -1,0 +1,32 @@
+.verde{
+    background-color: #29fe2f;
+    height: 70px;
+}
+
+.rojo{
+    background-color: red;
+    height: 500px;
+    font-size: 500%;
+}
+
+.amarillo{
+    background-color: yellow;
+    height: 70px;
+    font-size: 150%;
+}
+
+div{
+    border: solid white 3px;
+}
+
+.verdecol{
+    background-color: #29fe2f;
+    height: 350px;
+    font-size: 500%;
+}
+
+.amarillo1{
+    background-color: yellow;
+    text-align: end;
+    font-size: 150%;
+}
