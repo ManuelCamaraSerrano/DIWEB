@@ -12,18 +12,20 @@
   </head>
   <body>
     <div class="container">
-        <div class="verde row bg-sm-primary { background-color: blue; }">Header</div>
+        <div class="verde row d-none d-lg-block">Header</div>
+        <div class="verde row d-sm-none d-block d-flex justify-content-center bg-primary { background-color: red;}">Header</div>
+        <div class="verde row bg-primary { background-color: blue; } d-none d-sm-block d-lg-none">Header</div>
         <div class="row">
             <div class="rojo col-lg-4 col-sm-6 text-lg-center">1</div>
-            <div class="rojo col-lg-4 col-sm-6 text-lg-center">2</div>
-            <div class="rojo col-lg-4 d-sm-none d-lg-block text-lg-center">3</div>
-            <div class="verdecol col-sm-12 d-lg-none text-sm-center">3</div>
+            <div class="rojo col-lg-4 col-sm-6 text-lg-center text-center d-sm-flex justify-content-end d-lg-block">2</div>
+            <div class="rojo col-lg-4 d-sm-none d-lg-block text-lg-center  d-flex justify-content-end">3</div>
+            <div class="verdecol col-sm-12 d-lg-none text-sm-center d-none d-sm-block">3</div>
         </div>
         <div class="row">
-            <div class="amarillo1 col-lg-6 text-sm-center text-lg-right">
+            <div class="amarillo1 col-lg-6 text-sm-center text-center d-lg-flex justify-content-end">
                 <p>Footer 1</p>
             </div>
-            <div class="amarillo col-lg-6 text-sm-center text-lg-right">Footer 2</div>
+            <div class="amarillo col-lg-6 text-sm-center text-center d-lg-flex justify-content-start">Footer 2</div>
         </div>
     </div>
     <!-- Optional JavaScript; choose one of the two! -->
