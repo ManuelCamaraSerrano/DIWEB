@@ -1,0 +1,37 @@
+
+.cite{
+    background-color: #17a2b8;
+    padding: 3%;
+    text-align: left;
+    font-size: 170%;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+form{
+    padding: 4%;
+    border: solid 2px #4da3ff;
+}
+
+.grupo{
+    margin-bottom: 4%;
+}
+
+.file{
+    background-color: #343a40;
+    padding: 1%;
+    color: white;
+    margin-bottom: 2%;
+}
+
+.gris{
+    color: gainsboro;
+}
