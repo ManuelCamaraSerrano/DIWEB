@@ -1,0 +1,41 @@
+.sobre {
+  top: 100px;
+  left: 30px;
+  opacity: 0.7;
+  background-color: grey;
+  color: white;
+  transform: rotate(10deg);
+  border: 1px solid red;
+}
+
+figure{
+  border: solid white 3px;
+}
+
+
+.titulo{
+  background-color: #28a745;
+  color: white;
+  height: 100px;
+  font-size: 300%;
+}
+
+.gris{
+  background-color: #f8f9fa;
+  padding: 2%;
+}
+
+.pie{
+  background-color: #28a745;
+  color: white;
+  height: 200px;
+}
+
+.pie img{
+  width: 100px;
+}
+
+.contacta{
+  padding: 1%;
+  border-radius: 5px 5px 5px 5px;
+}
